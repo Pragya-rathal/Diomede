@@ -1,12 +1,6 @@
 import pytest
 
-from Diomedex.routing.store import (
-    add_destination,
-    destinations,
-    get_all_destinations,
-    remove_destination,
-    update_destination,
-)
+from Diomedex.utils.routing_store import add_destination, destinations, get_all_destinations, remove_destination, update_destination
 
 
 def test_add_destination_works():
